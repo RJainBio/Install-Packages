@@ -1,1 +1,5 @@
 print("Hi")
+install.packages("synapser", repos = c("http://ran.synapse.org", "http://cran.fhcrc.org"))
+BiocManager::install("ComplexHeatmap")
+library(synapser)
+library(ComplexHeatmap)
