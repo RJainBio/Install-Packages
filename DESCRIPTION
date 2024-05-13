@@ -16,5 +16,6 @@ Depends:
 	BiocManager,
 	ggsci,
 	circlize,
+	randomcoloR,
 	ggpubr (>= 0.6.0),
 	rstatix (>= 0.7.2)
