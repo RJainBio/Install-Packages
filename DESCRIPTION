@@ -17,4 +17,5 @@ Depends:
 	ggsci,
 	circlize,
 	ggpubr (>= 0.6.0),
-	rstatix (>= 0.7.2)
+	rstatix (>= 0.7.2),
+	corrplot
