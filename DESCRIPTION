@@ -25,4 +25,5 @@ Depends:
 	corrplot,
 	limma,
 	ComplexHeatmap,
+	Hmisc
 
