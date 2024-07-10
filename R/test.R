@@ -1,5 +1,12 @@
 print("Hi")
-#install.packages("synapser", repos=c("http://ran.synapse.org/", "https://cloud.r-project.org"))
-#BiocManager::install("ComplexHeatmap")
-#library(synapser)
-#library(ComplexHeatmap)
+
+# This function can be used to open all sheets from a list of excel files into separate data frames
+save_all_sheets <- function(file) {
+  sheets <- excel_sheets(file)
+  file_name <- sub("\\.xlsx$", "", basename(file))  # Removing extension for naming
+  for (sheet in sheets) {
+    sheet_data <- read_excel(file, sheet = sheet)
+    df_name <- paste0(file_name, "_", sheet)
+    assign(df_name, sheet_data, envir = .GlobalEnv)
+  }
+}
