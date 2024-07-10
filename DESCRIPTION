@@ -26,5 +26,6 @@ Depends:
 	limma,
 	ComplexHeatmap,
 	Hmisc,
-	readxl
+	readxl,
+	purrr
 
