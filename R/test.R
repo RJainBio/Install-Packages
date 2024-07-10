@@ -21,3 +21,5 @@ save_all_sheets <- function(file) {
     assign(df_name, sheet_data, envir = .GlobalEnv)
   }
 }
+#' @export
+#' @rdname save_all_sheets
