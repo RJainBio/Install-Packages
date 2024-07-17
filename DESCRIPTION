@@ -1,18 +1,17 @@
 Package: RaghavInstallr
-Title: Install My Commonly Used Packages
+Title: RaghavInstallr
 Version: 0.0.0.9000
 Authors@R: 
     person("Raghav", "Jain", , "raghav.jain@pnnl.gov", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1284-6762"))
-Description: Install packages.
-Depends:
-  R (>= 4.0.0)
+Description: Install my most used packages. Also some random functions.
 License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, load = "installed")
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 biocViews: 
 Depends:
+  R (>= 4.0.0)
   tidyverse,
 	scales,
 	pheatmap,
@@ -28,4 +27,3 @@ Depends:
 	Hmisc,
 	readxl,
 	purrr
-
