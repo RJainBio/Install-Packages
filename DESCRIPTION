@@ -27,4 +27,4 @@ Depends:
 	Hmisc,
 	readxl,
 	purrr,
-	writexl
+	writexl,
