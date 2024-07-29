@@ -13,6 +13,7 @@
 #' primary_df <- data.frame(ID = c(1:20), num2 = c(100:119))
 #' column_name <- "ID"
 #' merge_indiv_df(primary_df, df_names, column_name)
+#' # to output all dataframes in one excel file as individual sheets
 #' df_list.test = mget(df_names)
 #' # write_xlsx(df_list.test , "output.xlsx")
 merge_indiv_df <- function(primary_df,
