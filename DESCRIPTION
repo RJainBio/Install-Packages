@@ -28,3 +28,4 @@ Depends:
 	readxl,
 	purrr,
 	writexl,
+	factoextra,
