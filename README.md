@@ -2,8 +2,8 @@
  My most used packages for easy installation.
 
  install.packages("devtools")
- devtools::install_github("RJainBio/Install-Packages")
- library(RaghavInstallR)
+devtools::install_github("RJainBio/Install-Packages")
+library(RaghavInstallR)
 
 ## Additionall installs:
 devtools::install_github("Puriney/randomcoloR") # this is a branched version of the CRAN package
